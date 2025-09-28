@@ -45,7 +45,7 @@ export default function CodesPage() {
       <Section title="How to Redeem" description="Claim your rewards inside Roblox in under a minute.">
         <ol className="list">
           <li>Launch Plants vs Brainrots from the Roblox app.</li>
-          <li>Open Shop -> Codes from the left-side menu.</li>
+          <li>Open Shop → Codes from the left-side menu.</li>
           <li>Paste a working code into the pop-up field.</li>
           <li>Hit Claim to receive the reward instantly.</li>
         </ol>
