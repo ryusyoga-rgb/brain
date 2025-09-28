@@ -1,4 +1,4 @@
-﻿import { Section } from "@/components/Section";
+import { Section } from "@/components/Section";
 
 const bosses = [
   {
@@ -54,7 +54,7 @@ export default function BossesPage() {
         description="Meet the spawn counter and rebirth requirements to summon every tier."
       >
         <ul className="list">
-          <li>Wait for every 500 brainrot spawns; when a boss is ready the prompt "A Boss Has Spawned!" appears.</li>
+          <li>Wait for every 500 brainrot spawns; when a boss is ready the prompt &ldquo;A Boss Has Spawned!&rdquo; appears.</li>
           <li>Each tier requires the matching rebirth level - without it you will repeat the previous boss instead.</li>
           <li>Farming lower tiers after rebirth is useful for collecting alternate mutations on the same boss.</li>
         </ul>
@@ -140,3 +140,4 @@ export default function BossesPage() {
     </div>
   );
 }
+

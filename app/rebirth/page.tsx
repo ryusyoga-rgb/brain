@@ -123,7 +123,7 @@ export default function RebirthPage() {
           </table>
         </div>
         <div className="callout">
-          No hard cap exists yet - future tiers follow the same cash plus rare brainrot pattern. We will refresh this table as new levels arrive.
+          No hard cap exists yet — future tiers follow the same cash plus rare brainrot pattern. We will refresh this table as new levels arrive.
         </div>
       </Section>
 
