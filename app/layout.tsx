@@ -1,6 +1,7 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import "./globals.css";
 import { Navigation } from "@/components/Navigation";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Plants vs Brainrots Wiki & Codes (September 2025) | Full Guide",
@@ -21,6 +22,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-P2DDKVT8TK"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2DDKVT8TK');
+          `}
+        </Script>
         <Navigation />
         <main>{children}</main>
       </body>
